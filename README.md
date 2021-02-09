@@ -14,7 +14,7 @@ Notes on the RunCleanupForever.ps1 PowerShell script:
 * Currently configured to use Chrome browser: `$cmd = "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"`.   
 * Hardcoded chrome path for testing.  Both PowerShell 32 & 64 bit exist but regardless of which is used commands *${env:ProgramFiles}* and *${env:ProgramFiles(x86)}* both return 'Program Files (x86)', and Chrome 64 bit is installed in 'Program Files'.  `$cmd = "C:\Program Files\Google\Chrome\Application\chrome.exe"`
 * Hardcoded path in use: `$path_downloaddir = "C:\Users\troy.day\Downloads\" `
-* Changed environment to QA (replace conventionofstates.com with qacos.com) for testing purposes in these files: 
+* Test in QA environment by replacing all occurances of conventionofstates.com with qacos.com in these files: 
   * COS Clean Up (Play me!).json:  
   * COS People address.json:
   * COS Petition email_errors.json:
