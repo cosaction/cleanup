@@ -7,3 +7,7 @@ Questions can be directed to troy.day@cosaction.com.
 Recommended Extension Settings:
 
 ![Recommended extension settings](recommendedExtensionSettings.png)
+
+
+Test 1
+Test 2
